@@ -1,20 +1,7 @@
-// Kelas NamaHewan
-class NamaHewan {
-    // Atribut
-    String nama;
-    String jenis;
-    String suara;
+package Modul_2.Codelab_1;
 
-    // Method untuk menampilkan informasi NamaHewan
-    void tampilkanInfo() {
-        System.out.println("Nama: " + nama);
-        System.out.println("Jenis: " + jenis);
-        System.out.println("Suara: " + suara);
-    }
-}
-
-// Kelas Codelab_1
-public class Codelab_1 {
+// Kelas Main
+public class Main {
     public static void main(String[] args) {
         // Membuat objek NamaHewan1
         NamaHewan NamaHewan1 = new NamaHewan();

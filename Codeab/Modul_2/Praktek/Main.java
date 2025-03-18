@@ -1,3 +1,5 @@
+package Modul_2.Praktek;
+
 import java.util.Date;
 
 public class Main {
@@ -23,3 +25,4 @@ public class Main {
         farmer2.talk();
     }
 }
+

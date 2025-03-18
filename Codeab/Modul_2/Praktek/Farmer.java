@@ -1,3 +1,5 @@
+package Modul_2.Praktek;
+
 public class Farmer {
     String name;
     String favourite;
@@ -6,3 +8,4 @@ public class Farmer {
         System.out.println("Hai! \nNamaku adalah "+ name+ "\nTanaman kesukaanku adalah "+ favourite);
     }
 }
+
