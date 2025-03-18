@@ -6,20 +6,20 @@ class Rekening {
     double saldo;
 
     // Method untuk menampilkan informasi rekening
-    public void tampilkanInfo() {
+    void tampilkanInfo() {
         System.out.println("Nomor Rekening: " + nomorRekening);
         System.out.println("Nama Pemilik: " + namaPemilik);
         System.out.println("Saldo: Rp" + saldo);
         System.out.println(); // Spasi tambahan
     }
 
-    // Method untuk menyetor uang
+    // Method set untuk menyetor uang
     public void setorUang(double jumlah) {
         saldo += jumlah;
         System.out.println(namaPemilik + " menyetor Rp" + jumlah + ". Saldo sekarang: Rp" + saldo);
     }
 
-    // Method untuk menarik uang
+    // Method get untuk menarik uang
     public void tarikUang(double jumlah) {
         if (saldo >= jumlah) {
             saldo -= jumlah;
@@ -52,12 +52,12 @@ public class Codelab_2 {
         // Melakukan transaksi setor uang
         rekening1.setorUang(200000.0);
         rekening2.setorUang(500000.0);
-        System.out.println(); // Spasi tambahan
+        System.out.println();
 
         // Melakukan transaksi tarik uang
         rekening1.tarikUang(800000.0);
         rekening2.tarikUang(300000.0);
-        System.out.println(); // Spasi tambahan
+        System.out.println();
 
         // Menampilkan informasi rekening1 dan rekening2 setelah transaksi
         rekening1.tampilkanInfo();

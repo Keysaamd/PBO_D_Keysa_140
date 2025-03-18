@@ -5,7 +5,7 @@ class NamaHewan {
     String jenis;
     String suara;
 
-    // Metode untuk menampilkan informasi NamaHewan
+    // Method untuk menampilkan informasi NamaHewan
     void tampilkanInfo() {
         System.out.println("Nama: " + nama);
         System.out.println("Jenis: " + jenis);
