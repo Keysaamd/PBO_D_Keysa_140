@@ -1,15 +1,15 @@
-// User.java (superclass)
-public class User {
+package com.praktikum.users;
+
+//mengubah class user menjadi abstract class
+public abstract class User {
     private String nama;
     private String nim;
 
-    // Constructor
     public User(String nama, String nim) {
         this.nama = nama;
         this.nim = nim;
     }
 
-    // Getter and Setter methods
     public String getNama() {
         return nama;
     }
@@ -26,12 +26,11 @@ public class User {
         this.nim = nim;
     }
 
-    // Method to be overridden by subclasses
-    public boolean login(String input1, String input2) {
-        return false;
-    }
+    //mengubah login menjadi abstract
+    public abstract boolean login(String input1, String input2);
+    //menambahkan method abstract baru
+    public abstract void displayAppMenu();
 
-    // Method to display user information
     public void displayInfo() {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/PBO_D_Keysa_140.iml" filepath="$PROJECT_DIR$/PBO_D_Keysa_140.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codelab/Modul_2/Praktek/Praktek.iml" filepath="$PROJECT_DIR$/Codelab/Modul_2/Praktek/Praktek.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tugas/Tugas.iml" filepath="$PROJECT_DIR$/Tugas/Tugas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tugas/com.praktikum.users/com.praktikum.users.iml" filepath="$PROJECT_DIR$/Tugas/com.praktikum.users/com.praktikum.users.iml" />
     </modules>
   </component>
 </project>
